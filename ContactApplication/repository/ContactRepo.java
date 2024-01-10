@@ -31,8 +31,8 @@ public class ContactRepo {
     private void executeConnection() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:mysql://localhost:3306/contactapp";
-        String username = "Swathika";
-        String password = "Swathika@04";
+        String username = "*********";
+        String password = "*********";
         con = DriverManager.getConnection(url, username, password);
         stmt = con.createStatement();
     }
